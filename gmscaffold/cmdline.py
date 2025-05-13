@@ -56,10 +56,10 @@ def load_command(name: str, self) -> Callable[[], Command]:
 COMMANDS = {
     # gm_app commands
     "gm_app create_app": "gmscaffold.commands.GmAppCommand.CreateAppCommand",
-    "gm_app remove_app": "gmscaffold.commands.GmAppCommand.RemoveAppCommand",
+    # "gm_app remove_app": "gmscaffold.commands.GmAppCommand.RemoveAppCommand",
     # spider commands
     "spider create_spider": "gmscaffold.commands.SpiderCommand.CreateSpiderCommand",
-    "spider remove_spider": "gmscaffold.commands.SpiderCommand.RemoveSpiderCommand",
+    # "spider remove_spider": "gmscaffold.commands.SpiderCommand.RemoveSpiderCommand",
     # web commands
     "web start_project": "gmscaffold.commands.WebCommand.CreateWebCommand",
     "web remove_project": "gmscaffold.commands.WebCommand.RemoveWebCommand",
