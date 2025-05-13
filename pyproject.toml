@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "gmscaffold"
-version = "1.0.1"
+version = "1.0.2"
 description = "GM Scaffold"
 authors = ["yao <1125564921@qq.com>"]
 license =  "MIT"
@@ -18,7 +18,7 @@ cleo = "^2.1.0"
 profile = "black"
 
 [tool.poetry.scripts]
-gm = 'gmscaffold.cmdline:execute'
+gmcli = 'gmscaffold.cmdline:execute'
 
 
 [build-system]
