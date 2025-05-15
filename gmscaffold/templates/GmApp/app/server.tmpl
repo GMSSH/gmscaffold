@@ -21,15 +21,11 @@ socket_path = os.path.join(current_path, "tmp.socket")
 app = ServerApplication(socket_path)
 app.middleware(ExampleMiddleware())
 
-class {{ name | to_capitalize }}Service:
+
+@app.route(name="hello", form=ExampleForm)
+async def hello(lang, action):
     """ """
-    def __init__(self):
-        self.example = Example()
-
-
-    @app.route(name="hello", form=ExampleForm)
-    async def hello(self, lang, action):
-        """ """
-        data =  await self.example.hello(lang, action)
-        return jsonify(data=data, msg="OK")
+    example = Example()
+    data =  await example.hello(lang, action)
+    return jsonify(data=data, msg="OK")
 

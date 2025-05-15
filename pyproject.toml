@@ -1,10 +1,11 @@
 [tool.poetry]
 name = "gmscaffold"
-version = "1.0.4"
+version = "1.0.5"
 description = "GM Scaffold"
 authors = ["yao <1125564921@qq.com>"]
 license =  "MIT"
 readme = "README.md"
+url = "http://github.com/GMSSH/gmscaffold"
 
 [tool.poetry.dependencies]
 python = "^3.10"
