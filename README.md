@@ -1,4 +1,9 @@
-# README
+[![Latest Version](https://img.shields.io/pypi/v/gmscaffold.svg)](https://pypi.python.org/pypi/gmscaffold/)
+[![Supported Python versions](https://img.shields.io/pypi/pyversions/gmscaffold.svg)](https://pypi.python.org/pypi/gmscaffold/)
+[![Downloads](https://img.shields.io/pypi/dm/gmscaffold.svg)](https://pypi.org/project/gmscaffold/)
+
+gmscaffold
+==========
 
 ## 1. Preparing the Development Environment
 
