@@ -7,8 +7,13 @@
 @版本        :{{ version }}
 """
 
-from simplejrpc import BaseForm
+from simplejrpc import BaseForm, StringField, RequireValidator
+
+from simplejrpc import TextMessage as _
+
 
 class ExampleForm(BaseForm):
     """ """
+
+    name = StringField(validators=[RequireValidator(_("REQUIRE_VALIDATION_TM"))])
 
