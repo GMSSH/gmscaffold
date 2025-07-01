@@ -72,7 +72,6 @@ Please enter contact email: xxx@163.com
 Please enter the project version: 0.0.1
 Please enter the project description: example
 DEBUG:GmScaffold:[example] create_gm_app successfully
-
 ```
 
 ---
