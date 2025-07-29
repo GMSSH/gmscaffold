@@ -3,6 +3,9 @@ Changelog
 
 Next Version
 ------------
+1.0.9 (2025-07-29)
+------------------
+* Improve: Remove register server
 
 1.0.7 (2025-05-21)
 ------------------
